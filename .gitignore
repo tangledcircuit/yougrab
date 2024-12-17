@@ -1,7 +1,6 @@
 # Ignore everything
 *
-
-# But not these files
+!*/
 !.gitignore
 !extract.py
 !README.md
@@ -11,12 +10,7 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# Test files
-*.html
-*.md
-!README.md
-
 # IDE specific
 .vscode/
 .idea/
-*.swp 
+*.swp
